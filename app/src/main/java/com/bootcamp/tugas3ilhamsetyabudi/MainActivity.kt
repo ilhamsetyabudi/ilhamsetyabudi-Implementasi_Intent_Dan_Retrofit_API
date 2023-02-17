@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<ResponseNews>, t: Throwable) {
-                Log.d("gagal","onFailure: "+ t.localizedMessage)
+                Log.d("gagal .","onFailure: "+ t.localizedMessage)
             }
 
         })
